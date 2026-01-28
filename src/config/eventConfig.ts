@@ -3,23 +3,23 @@
 
 export const EVENT_CONFIG = {
   // The special date (YYYY-MM-DD format)
-  eventDate: "2026-02-02",
+  eventDate: "2026-01-28",
   
   // Timezone for the event
   timezone: "Asia/Kolkata",
   
   // Birthday person's name
-  birthdayName: "My Dearest Friend",
+  birthdayName: "Bestie",
   
   // Main title shown in the header
-  eventTitle: "A Day Written Just For You",
+  eventTitle: "A Day Made Just For You",
   
   // Subtitle for the header
-  eventSubtitle: "✨ Your Birthday Timeline ✨",
+  eventSubtitle: "🎂 Your Birthday Timeline 🎂",
   
   // Message shown before the event date
-  preEventMessage: "Something magical is being prepared for you...",
+  preEventMessage: "Something special is being prepared for you...",
   
   // Message shown after all sections unlock
-  postEventMessage: "Thank you for being you. Here's to many more beautiful moments together! 💕",
+  postEventMessage: "Thank you for being the best friend anyone could ask for! 🎂",
 };

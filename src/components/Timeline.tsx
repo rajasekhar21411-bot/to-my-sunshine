@@ -5,7 +5,7 @@ import { TimelineSection } from "./TimelineSection";
 import { LockedSection } from "./LockedSection";
 import { isSectionUnlocked, getEventStatus } from "@/utils/timeUtils";
 import { EVENT_CONFIG } from "@/config/eventConfig";
-import { Sparkles, Heart } from "lucide-react";
+import { Sparkles, Gift } from "lucide-react";
 
 export function Timeline() {
   const [unlockedSections, setUnlockedSections] = useState<Set<number>>(new Set());
@@ -111,7 +111,7 @@ export function Timeline() {
               transition={{ duration: 2, repeat: Infinity }}
               className="flex justify-center mb-4"
             >
-              <Heart className="w-12 h-12 text-primary-foreground fill-primary-foreground" />
+              <Gift className="w-12 h-12 text-primary-foreground" />
             </motion.div>
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-foreground mb-3">
               That's All For Today! 🎂
@@ -129,7 +129,7 @@ export function Timeline() {
             transition={{ duration: 1.5, repeat: Infinity }}
             className="text-4xl"
           >
-            💕
+            🎁
           </motion.div>
         </div>
       </div>
