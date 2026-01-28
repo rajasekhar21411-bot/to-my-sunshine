@@ -7,12 +7,19 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1200px",
       },
     },
     extend: {
+      fontFamily: {
+        serif: ["'Playfair Display'", "serif"],
+        sans: ["'Nunito'", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,33 +64,89 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom birthday theme colors
+        rose: {
+          light: "hsl(350 65% 85%)",
+          DEFAULT: "hsl(350 65% 65%)",
+          dark: "hsl(350 65% 45%)",
+        },
+        peach: {
+          light: "hsl(25 80% 90%)",
+          DEFAULT: "hsl(25 80% 80%)",
+          dark: "hsl(25 80% 60%)",
+        },
+        lavender: {
+          light: "hsl(280 40% 90%)",
+          DEFAULT: "hsl(280 40% 80%)",
+          dark: "hsl(280 40% 60%)",
+        },
+        champagne: {
+          light: "hsl(40 60% 92%)",
+          DEFAULT: "hsl(40 60% 85%)",
+          dark: "hsl(40 60% 65%)",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        "2xl": "1rem",
+        "3xl": "1.5rem",
+      },
+      boxShadow: {
+        glow: "0 0 20px hsla(350, 65%, 65%, 0.3)",
+        "glow-lg": "0 0 40px hsla(350, 65%, 65%, 0.4)",
+        soft: "0 4px 20px hsla(350, 30%, 50%, 0.1)",
+        "soft-lg": "0 8px 32px hsla(350, 30%, 50%, 0.15)",
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "scale-in": {
+          "0%": { opacity: "0", transform: "scale(0.95)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
+        "slide-in-left": {
+          "0%": { opacity: "0", transform: "translateX(-20px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        "slide-in-right": {
+          "0%": { opacity: "0", transform: "translateX(20px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        "bounce-soft": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-5px)" },
+        },
+        heartbeat: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.05)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-up": "fade-up 0.5s ease-out",
+        "fade-in": "fade-in 0.4s ease-out",
+        "scale-in": "scale-in 0.3s ease-out",
+        "slide-in-left": "slide-in-left 0.4s ease-out",
+        "slide-in-right": "slide-in-right 0.4s ease-out",
+        "bounce-soft": "bounce-soft 2s ease-in-out infinite",
+        heartbeat: "heartbeat 1.5s ease-in-out infinite",
       },
     },
   },
