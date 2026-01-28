@@ -18,7 +18,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="py-8 text-center">
           <p className="text-sm text-muted-foreground">
-            Made with 💕 just for you
+            Made with 🎂 just for you
           </p>
         </footer>
       </div>
