@@ -3,7 +3,7 @@
 
 export const EVENT_CONFIG = {
   // The special date (YYYY-MM-DD format)
-  eventDate: "2026-01-28",
+  eventDate: "2026-02-08",
   
   // Timezone for the event
   timezone: "Asia/Kolkata",
@@ -12,7 +12,7 @@ export const EVENT_CONFIG = {
   birthdayName: "Bestie",
   
   // Main title shown in the header
-  eventTitle: "A Day Made Just For You",
+  eventTitle: "A Day Made Just For my Sunshine",
   
   // Subtitle for the header
   eventSubtitle: "🎂 Your Birthday Timeline 🎂",

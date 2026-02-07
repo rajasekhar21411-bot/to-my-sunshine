@@ -1,8 +1,3 @@
-import birthdayMidnight from "@/assets/birthday-midnight.jpg";
-import morningCoffee from "@/assets/morning-coffee.jpg";
-import birthdayCake from "@/assets/birthday-cake.jpg";
-import eveningSunset from "@/assets/evening-sunset.jpg";
-
 export interface TimelineItem {
   id: number;
   unlockTime: string; // HH:mm format
@@ -21,13 +16,23 @@ export const timelineData: TimelineItem[] = [
   {
     id: 1,
     unlockTime: "00:00",
-    title: "The Day Begins!",
+    title: "A wish for my dearest sunshine",
     message: [
-      "Happy Birthday, bestie! 🎂",
-      "The clock just struck midnight and guess what? It's YOUR day!",
-      "Let's make this year even more awesome than the last.",
+      " Hii sunshine Firstly meny more happy returns of the day to my Lovely sunshine.", 
+      " You are the closest and prittiest , dearest girl (ammaye kadha nuvvu 🤔? 😁) for me.", 
+      " Nenu eppudu anukole online lo ammayitho intha close avutha, you are a female version of me we have lot of common interests blaa blaa blaa blaa 🙄😒 ilantivi Anni naa birthday kee cheppesav assal em Cheppamantav kothaga 🤔🤷", 
+      " Sare vinu try chestha Em ammayivi raa babu serious ga chepthunna i never met a girl like you, Physically you are really super strong (kani bakkadhanive 🤭)", 
+      " Mentally you are even more strong college topper and recognised chess player in college (kani chalaa mental dhanivi 😮‍💨)", 
+      " Emotionally you are caring (kani ego emotions unna chupiyavu 😏 i know)", 
+      " Psychologically you are self motivative and self controlled person you know how to behave with people (kani nuvvu oka psycho vi 😏)", 
+      " Annitiki minchi naa best friend vi 😒", 
+      " Bavundhaa ela Cheppa ? 😏😏😅 Neeko visyam cheppana ippudu night 12:41 ippudu nee gurinche alochisthunna nee birthday ki em chesthe bavuntundha ani", 
+      " Neeku edhaina pedda surprise ivvali ani undhi nee mundhuku vachi wish chesi day antha ala thiruguthu kani avvadhe 🙄 ee sariki ila sardhuku podham lee nuvvu kuda anthe", 
+      " Sarle paina vi pakkana pedithe I have one and only wish for you Job and good life style manchi name ilantivi Anni neeku vasthai i know that very well ", 
+      " So, I just want you to be happy throughout your entire life Anthe", 
+      " Once again very happy birthday Dear ❤️ Sarle good night sweetheart",
     ],
-    images: [birthdayMidnight],
+    images: [],
     theme: {
       gradient: "gradient-rose",
       accent: "text-primary-foreground",
@@ -40,11 +45,14 @@ export const timelineData: TimelineItem[] = [
     unlockTime: "06:00",
     title: "Morning Vibes",
     message: [
-      "Good morning, birthday legend! ☀️",
-      "Hope you slept well because today is going to be epic.",
-      "Go grab that coffee and own this day!",
+      " Good morning sunshine Lechava ",
+      " Eppudu vasthava ani chusthu unna Birthday kadha lechi panulu Anni chuskoni ready avvali kada.",
+      " Entha andham ga ready avuthavo ento chudali ani undhi 🙄.", 
+      " karchitham gaa moon antha baga kanipisthav lee.",
+      " Sarle ee roju nee andhanniki evadaina emaina ekkuva chesthe cheppu esestha assal ke bavuntav ee roju Inka ekkuve.",
+      " Happy Birthday sunny 😎",
     ],
-    images: [morningCoffee],
+    images: [],
     theme: {
       gradient: "gradient-champagne",
       accent: "text-foreground",
@@ -55,11 +63,9 @@ export const timelineData: TimelineItem[] = [
   {
     id: 3,
     unlockTime: "09:00",
-    title: "Fun Fact Time",
+    title: "Sunshine Facts",
     message: [
-      "You know what's cool about you? 🔥",
-      "You've got this amazing energy that hypes everyone up.",
-      "Seriously, being your friend is a W.",
+      " Did you know that the name 'Sunshine' is often associated with warmth, positivity, and happiness? Just like how you brighten up my day with your presence! ☀️",
     ],
     images: [],
     theme: {
@@ -71,14 +77,33 @@ export const timelineData: TimelineItem[] = [
   },
   {
     id: 4,
-    unlockTime: "12:00",
-    title: "Midday Check-in",
+    unlockTime: "13:00",
+    title: "Recall Our Memory",
     message: [
-      "Halfway through your special day! 🎈",
-      "Hope you're having a blast and eating something good.",
-      "You deserve all the cake and snacks today!",
+      " Heyy did you remember your last birthday",
+      " Naakaithe kalla mundhe undhi",
+      " mundhe prepare ayyi vachi Hyderabad park lo walking ayipoyaka excercises skip chesi oka moolaki poyi kurchoni neeku msg chesi eduruchusthu unna",
+      " replay ichav and call kuda chesa Nuvvu Mee thammuditho bike paina poyi vasthunnav maa cows ni mepe place nundi",
+      " Kani ento anthala prepare ayyi kuda nuvvu call lift chesi Hello ani okka mata cheppagane mind antha empty ayipoyindhi em gurthule Anni marchipoya",
+      " Ala matladuthu matladu okkokati ga gurthu thechukunna 🙄 kastame Appudu Cheppa ",
+      " Me: nee birthday ki gift ga oka rose thechi iddam anukunna but oka Rose ki inko Rose tho panemuntundhi le ani ivvale.",
+      " You: (No Reaction 😑)",
+      " Me: Ee roju nuvvu intha baga Ready avuthav kadha mirror mundhuku assal vellaku ",
+      " You: endhuku ",
+      " Me: intha andhanni aa mirror matram chusi thattukuntundhaa vaddule ",
+      " You: no reaction and no sounds 😑😒🙄",
+      " Lopala tension em anukuntunnavo telidhu neenu em Cheppaano clarity ledhu 😮‍💨 Anthalo inkokati vadila",
+      " Me: nuvvu Eroju chikati padina tharvata bayataki assal vellaku",
+      " You: endhuku ",
+      " Me: aa chandhamama kuda nee andhanni chusi asuya paduthundhi emo vaddule.",
+      " You: no reaction i didn't even hear small noise ",
+      " Anthee naa heartbeat raise ayipoyindhi naalo nake tension Emaina thappu matladana or ala matladi undakapothe bavundedhi emo Bla bla bla 😒😒",
+      " But yes I did it Neeku nachindhi tharvata i felt so happy 🙃",
+      " That was my beautiful memory with you marchipovadam kastame",
+      " Sarle nuvve msg chesav ippudu Prasantham ga rasthuntee poyi msg chesthunna byeeeeeeee.",
+      " Wait wait wait Happy Birthday mine 😉",
     ],
-    images: [birthdayCake],
+    images: [],
     theme: {
       gradient: "gradient-lavender",
       accent: "text-primary-foreground",
@@ -88,12 +113,10 @@ export const timelineData: TimelineItem[] = [
   },
   {
     id: 5,
-    unlockTime: "15:00",
-    title: "Afternoon Appreciation",
+    unlockTime: "19:00",
+    title: "Appreciation Time",
     message: [
-      "Real talk for a second... 🙌",
-      "Thanks for always being there, for all the laughs and support.",
-      "You're genuinely one of the best people I know.",
+      " Heyy sunshine, just wanted to take a moment to appreciate how amazing you are. Your smile can light up the darkest days, and your kindness is truly inspiring. I'm grateful to have you in my life. Keep shining bright! 🌟",
     ],
     images: [],
     theme: {
@@ -105,14 +128,24 @@ export const timelineData: TimelineItem[] = [
   },
   {
     id: 6,
-    unlockTime: "18:00",
-    title: "Evening Mode",
+    unlockTime: "22:30",
+    title: "Hello Vinipisthundha",
     message: [
-      "The sun's setting on your birthday! 🌅",
-      "Hope you're chilling with the people you love.",
-      "You've earned a great evening, bestie.",
+      " Hlooo cookie enti padukoniki bed ekkesava Inka ledha Mmmm",
+      " Inka classes chuskuntu untav emo sarle vachaka chudu",
+      " Inthala inni sections lo em matladalo theliyatledhu sarle vinu",
+      " Did you remember our first call Evening maa auto lo kurchoni matladuthunna one of the weirdest call I even had first time oka ammayi call chesi matladuthundhi matladili ga nenu em matladalo Thelidhu matladatam raadhu kani chala vintha vinthaga undhi mana iddari silence ee ekkuva aa call lo 😅",
+      " Akkada nundi start ayindhi we had a lot of calls some are funny some are extremely happy and enjoyable and few of sad 😅",
+      " But interesting konni calls ni eppatiki marchipolemu Manam Paadukunna patalu adukunna games matladukunna matalu",
+      " Gurthundha nenu Hyderabad lo unnappudu near 2025 pongal anukuntaa enni songs padav naakosam aa tharvata eppudu padaledhu lee",
+      " Did you remember the day we have played with tongue twisters 😅 Just before the new year adiga FF delete cheyamani pogaru chupinchav",
+      " Particularly that period of time was just filled with calls 3 hours call kuda aa mundhe afternoon nundi evening varaku matladuthune unnam appudu first time flirt chesindhi nuvvu vachi thinipisthav ani antu",
+      " Anthakante mundhu Mee college Event ki bore kodithe call cheyamani adigi matladav with 8% of charge in your mobile aa madyalone oka Sunday afternoon 2 o clock ki thinesi vachi bore koduthundhi ani call Cheyamani matladav and inkosari kuda appude",
+      " Nuvvu matladuthu matladuthu madyalo iche smile and nenu pogidinappudu vache silence everything just beautiful 🙃",
+      " Aa tharvatane Anukunta manam night time matladatam start chesindhi first time FF lo and aa next day normal call lo and aaa tharvata inkonni sarlu 😅 I don't know how did you feel about these night calls naaku avi kuda istame.",
+      " Beautiful memories kadha i mean naaku Happy Birthday likhi 😊",
     ],
-    images: [eveningSunset],
+    images: [],
     theme: {
       gradient: "gradient-champagne",
       accent: "text-foreground",
@@ -122,12 +155,16 @@ export const timelineData: TimelineItem[] = [
   },
   {
     id: 7,
-    unlockTime: "21:00",
-    title: "Night Crew",
+    unlockTime: "23:00",
+    title: "Beauty of parrot",
     message: [
-      "It's getting late but we're still celebrating! ✨",
-      "Thanks for all the crazy memories we've made.",
-      "Here's to making even more this year!",
+      " Photos photos photos 🙃 Entha bavuntave babu konni photos lo ",
+      " nijam ga ee ammayena naatho matladuthundhi anipisthundhi stylish ga and treditional ga.",
+      " Monna pongal event veskunna lehanga lo kuda chala bavunnav but okka picture clarity ledhu okka picture Closeup ledhu 😒",
+      " Assal aa treditional wear lo aa buttalatho ela unnavo chudali 🤷🙄 sarle .",
+      " Andhamaina face, manchi kallu nallani and pedda eyebrows and pedda pedda eye lashes clear face and manchi jawline Inka aa lips antava vaati gurinchi matladatam start chesthe ippatlo aagadhu so vaddule 😅 and annitiki minchi glowing face bavuntav lee (ekkuva chesthunna anukokunda vachi naa kallatho chudu 😏😏😏😏😏) ",
+      " Ooo shit okati marchipoya chilaka mukku 🤭🤭🤭😂",
+      " Happy Birthday darling 😉",
     ],
     images: [],
     theme: {
@@ -139,13 +176,21 @@ export const timelineData: TimelineItem[] = [
   },
   {
     id: 8,
-    unlockTime: "23:00",
+    unlockTime: "23:30",
     title: "Final Message",
     message: [
-      "Your birthday's almost over... 🌙",
-      "But our friendship? That's forever.",
-      "Happy Birthday once more, bestie! 🎂",
-      "Catch you next year for round two!",
+      " Heyy i know it's night 11:30 pm ",
+      " I want to tell you something ",
+      " Nuvvu eppudu antu untav ga eppatiki ilane undamu ga edhoka time lo matladatam manestham adhi idhi antu I don't know nuvvu anthala chepthu untav gaa nijame kavachu But listen this",
+      " i don't have any thought to leave you And I like to create a lot of memories with you if possible 😅 ",
+      " I know we already have lot of memories just by conversation I'm not saying about it Mana iddaram bayata kalisinappativi antunna",
+      " we need to create lot of memories Manam kalisthene adhi oka memory ayipothundhi anuko Entha weird ga untundho chudali 😅😅😅 ",
+      " Topic antha divert chesana ",
+      " Nenu eppatiki ilane untaa gurthupettuko ilane inthe istam tho Maybe some times chupiyalapovachu nee meedhane depend ayi untundhi But istam povadam jaragadhu matladali ani anipinchakunda podhu Ala ani matladutha ani kuda cheppanu job will decide few things 😅 But istam Matram maradhu Ika nee istam nuvvu ela untavo annadhi",
+      " I won't stop you if you take any wrong decisions Wrong decitions kaadhu I mean 🙄Neeku ardham ayye untundhi lee Sarle edhokati ee time lo kuda ila matladuthu ",
+      " But still ee mata cheppakunda povali anipinchatledhe 😒 I love you dear. Don't dare you to love me back",
+      " Okayyyy byeee One last time",
+      " happy birthday sunshine ❤️"
     ],
     images: [],
     theme: {
