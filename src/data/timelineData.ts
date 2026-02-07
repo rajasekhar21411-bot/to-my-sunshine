@@ -1,3 +1,8 @@
+import birthdayMidnight from "@/assets/birthday-midnight.jpg";
+import morningCoffee from "@/assets/morning-coffee.jpg";
+import birthdayCake from "@/assets/birthday-cake.jpg";
+import eveningSunset from "@/assets/evening-sunset.jpg";
+
 export interface TimelineItem {
   id: number;
   unlockTime: string; // HH:mm format
@@ -22,7 +27,7 @@ export const timelineData: TimelineItem[] = [
       "The clock just struck midnight and guess what? It's YOUR day!",
       "Let's make this year even more awesome than the last.",
     ],
-    images: [],
+    images: [birthdayMidnight],
     theme: {
       gradient: "gradient-rose",
       accent: "text-primary-foreground",
@@ -39,7 +44,7 @@ export const timelineData: TimelineItem[] = [
       "Hope you slept well because today is going to be epic.",
       "Go grab that coffee and own this day!",
     ],
-    images: [],
+    images: [morningCoffee],
     theme: {
       gradient: "gradient-champagne",
       accent: "text-foreground",
@@ -73,7 +78,7 @@ export const timelineData: TimelineItem[] = [
       "Hope you're having a blast and eating something good.",
       "You deserve all the cake and snacks today!",
     ],
-    images: [],
+    images: [birthdayCake],
     theme: {
       gradient: "gradient-lavender",
       accent: "text-primary-foreground",
@@ -107,7 +112,7 @@ export const timelineData: TimelineItem[] = [
       "Hope you're chilling with the people you love.",
       "You've earned a great evening, bestie.",
     ],
-    images: [],
+    images: [eveningSunset],
     theme: {
       gradient: "gradient-champagne",
       accent: "text-foreground",
