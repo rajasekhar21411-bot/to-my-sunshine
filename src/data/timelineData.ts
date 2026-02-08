@@ -68,7 +68,7 @@ export const timelineData: TimelineItem[] = [
       " Did you know that the name 'Sunshine' is often associated with warmth, positivity, and happiness? Just like how you brighten up my day with your presence! ☀️",
       " Heyy ee roju nenu morning snanam chesi temple ki podham ani decide ayyanu vellamantava 😅🤭😂",
       " manchiga Ready ayyi photo kuda thisko ",
-      " Byeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      " Byeeeeee eeeeeeee eeeeeeeee eeeeeeeee eeeeeeeee eeeeeeee eeeee",
       " happy birthday sunshine 🙃",
     ],
     images: [],
