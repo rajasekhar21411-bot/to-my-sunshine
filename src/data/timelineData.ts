@@ -66,6 +66,10 @@ export const timelineData: TimelineItem[] = [
     title: "Sunshine Facts",
     message: [
       " Did you know that the name 'Sunshine' is often associated with warmth, positivity, and happiness? Just like how you brighten up my day with your presence! ☀️",
+      " Heyy ee roju nenu morning snanam chesi temple ki podham ani decide ayyanu vellamantava 😅🤭😂",
+      " manchiga Ready ayyi photo kuda thisko ",
+      " Byeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      " happy birthday sunshine 🙃",
     ],
     images: [],
     theme: {
