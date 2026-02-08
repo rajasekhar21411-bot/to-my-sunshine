@@ -83,7 +83,7 @@ export const timelineData: TimelineItem[] = [
     id: 33,
     unlockTime: "10:30",
     title: "Unlimited Wishes",
-    message: new Array(5).fill("Happy Birthday Sunshine 😁🫠🙃"),
+    message: new Array(1000).fill("Happy Birthday Sunshine 😁🫠🙃"),
     images: [],
     theme: {
       gradient: "gradient-peach",
