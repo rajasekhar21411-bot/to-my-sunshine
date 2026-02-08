@@ -80,6 +80,19 @@ export const timelineData: TimelineItem[] = [
     animation: "scaleIn",
   },
   {
+    id: 33,
+    unlockTime: "11:30",
+    title: "Unlimited Wishes",
+    message: new Array(5).fill("Happy Birthday Sunshine 😁🫠🙃"),
+    images: [],
+    theme: {
+      gradient: "gradient-peach",
+      accent: "text-primary-foreground",
+      icon: "⚡",
+    },
+    animation: "scaleIn",
+  },
+  {
     id: 4,
     unlockTime: "13:00",
     title: "Recall Our Memory",
